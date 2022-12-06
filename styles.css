@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.navbar {
+  padding-bottom: 0rem;
+  z-index: 2;
+  
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.2rem;
+  padding: 10px 20px;
+}
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.help{
+  color: white;
+  font-size: 3rem;
+}
+
+.para{
+  text-align: justify;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Courgette', cursive;
+}
+
+.backword{
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Courgette';
+}
+
+.end{
+  padding: 10px 10px;
+  margin: 10px 10px;
+  color: white;
+}
+
+@media (max-width: 1080px) {
+  .footerend{
+    position:absolute;
+    bottom: -300px;
+    left: 180px;
+    text-align: center;
+    color: white;
+  }
+  
+}
